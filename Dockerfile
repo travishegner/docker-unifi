@@ -12,10 +12,6 @@ VOLUME ["/var/lib/unifi"]
 
 EXPOSE 8080/tcp 8081/tcp 8443/tcp 8843/tcp 8880/tcp 3478/udp
 
-USER nobody
-
-ENV JSVC_EXTRA_OPTS "-user nobody"
-
 WORKDIR /var/lib/unifi
 
 ENTRYPOINT ["/bin/bash", "/init.sh"]
