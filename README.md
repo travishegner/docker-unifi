@@ -1,3 +1,6 @@
+**Archive Note**
+This docker image is outdated and no longer required to enable a compressed DB. I highly recommend using the linuxserver.io version here: https://hub.docker.com/r/linuxserver/unifi-controller
+
 * Unifi:   5.9.29
 * MongoDB: 3.6
 
